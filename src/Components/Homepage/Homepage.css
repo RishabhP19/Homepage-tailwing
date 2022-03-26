@@ -1,0 +1,6 @@
+.space{
+    white-space: nowrap;
+    width: 4px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
