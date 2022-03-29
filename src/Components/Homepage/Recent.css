@@ -1,0 +1,41 @@
+@media screen and (min-device-width: 768px)
+and (max-device-width: 1024px) {
+  .recent_blog{
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    gap: 10px;
+  }
+  .library_blog{
+   
+        display: grid;
+        grid-template-columns: auto auto auto ;
+        gap: 10px;
+      
+  }
+  .services_blog{
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    gap: 10px;
+  }
+}
+@media screen and (max-device-width: 480px)
+and (orientation: portrait) {
+    .recent_blog{
+        display: grid;
+        grid-template-columns: auto auto ;
+        gap: 10px;
+        margin-right: 20rem;
+      }
+      .library_blog{
+       
+            display: grid;
+            grid-template-columns: auto auto ;
+            gap: 10px;
+          
+      }
+      .services_blog{
+        display: grid;
+        grid-template-columns: auto auto ;
+        gap: 10px;
+      }
+}

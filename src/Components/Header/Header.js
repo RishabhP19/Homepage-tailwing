@@ -4,12 +4,13 @@ import {AiOutlineQuestionCircle} from 'react-icons/ai'
 import {RiWechatFill} from 'react-icons/ri'
 import {BsSearch} from 'react-icons/bs'
 import {GiCircleClaws} from 'react-icons/gi'
+import './Header.css'
 
 const Header = () => {
     const [navbar,setNavbar]= useState(false)
   return (
     <>
-    <div className='w-full h-12 bg-white drop-shadow-md sticky top-0 '>
+    <div className='w-full h-12 bg-white drop-shadow-md sticky top-0 header_nav '>
         <div className='px-10 py-4 inline-flex'>
             <button><FaBars onClick={()=>setNavbar(!navbar)} className='text-xl font-light '/></button>
         <div className=' absolute right-0 inline-flex gap-x-5 px-10'>
@@ -28,7 +29,7 @@ const Header = () => {
         
         </div>
     </div>
-    <nav className={navbar?'absolute z-10 w-56 bg-white text-white h-full transition duration-500 ease ':'absolute z-10 w-56 bg-white text-white h-full  transform -translate-x-full transition duration-500 ease'}>
+    <nav className={navbar?'absolute z-10 w-56 bg-white text-white h-full navbar transition duration-500 ease ':'absolute navbar z-10 w-56 bg-white text-white h-full  transform -translate-x-full transition duration-500 ease'}>
         <ul className='divide-y divide-slate-300 text-black text-sm font-semibold '>
             <li className='py-2 pl-5 mt-2 hover:bg-blue-700 hover:text-white'>
                 <span>Home</span>

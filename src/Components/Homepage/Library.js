@@ -1,4 +1,5 @@
 import React from 'react'
+import './Recent.css'
 
 const Library = () => {
   return (
@@ -9,7 +10,7 @@ const Library = () => {
         </div>
         <button className=' bg-sky-600 px-4 py-2 rounded-3xl text-sm text-white' >Explore More</button>
         </div>
-        <div class="flex justify-between mb-8">
+        <div class="library_blog flex justify-between mb-8">
           <div className=' h-68 w-48 lg:h-68 lg:w-64  rounded-xl bg-white p-4'>
               <p className='font-bold'>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit...

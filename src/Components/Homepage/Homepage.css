@@ -4,3 +4,177 @@
     overflow: hidden;
     text-overflow: ellipsis;
 }
+.first_div{
+    margin-left: 2rem;
+    margin-right: 2rem;
+    gap:2rem;
+}
+.first_div_1st{
+    width: 100%;
+}
+.first_div_2nd{
+    width: 100%;
+}
+.first_div_text{
+        margin-top: 3rem;
+        margin-left: 15rem;
+        font-size: 2rem;
+    }
+.arrow{
+    display: flex;
+    position: absolute;
+    font-size: 4.5rem;
+    gap: 62rem;
+    margin-left: -14rem;
+
+}
+.first_div_text_img{
+    margin-left: 10rem;
+    margin-top: 3rem;
+}
+.demo-2{
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        max-width: 70rem;
+}
+.div_2nd{
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+.length_1{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    max-width: 100rem;
+}
+.all_table{
+    display: flex;
+}
+.div_t_end{
+    margin-right: 2rem;
+}
+.div_t_start{
+    margin-left: 2rem;
+}
+/*******************( For Desktop View )****************************/
+@media screen and (min-width: 1024px) {
+    .div_2nd{
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+    .length_1{
+        max-width: 34rem;
+    }
+    .demo-2{
+        max-width: 30rem;
+}
+    .first_div_1st{
+        height: 18rem;
+    }
+    .first_div_text{
+        margin-top: 2rem;
+        margin-left: 5rem;
+    }
+    .arrow{
+        font-size: 3.5rem;
+        margin-top: 2rem;
+        gap: 31rem;
+        margin-left: -5rem;
+    }
+    .first_div_text_img{
+        margin-left: 0rem;
+        margin-top: 2rem;
+    }
+  }
+
+  @media screen and (min-device-width: 768px)
+  and (max-device-width: 1024px) {
+    .length_1{
+        max-width: 5rem;
+    }
+    .first_div_1st{
+        width: 100%;
+        height: 18rem;
+    }
+    .first_div_text{
+        margin-top: -1rem;
+        margin-left: 3rem;
+        font-size: 1.5rem;
+    }
+    .arrow{
+            font-size: 3.5rem;
+            margin-top: 2rem;
+            gap: 14rem;
+            margin-left: -3rem;
+    }
+    .first_div_text_img{
+            margin-left: 1rem;
+            padding-top: 2rem; 
+    }
+    .demo-2 {
+        max-width: 10rem;
+      }
+    .first_div_text_img{
+        margin-right: 4rem;
+        margin-top: 0rem;
+    }
+}
+/***************** Media Queries(Mobile-L) **************/
+
+@media screen and (max-device-width: 480px)
+and (orientation: portrait) {
+    .div_t_mid{
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+    .div_t_end{
+        margin-left: 2rem;
+    }
+    .div_t_start{
+        margin-right: 2rem;
+    }
+    .all_table{
+        flex-direction: column;
+    }
+    .length_1{
+        max-width: 2rem;
+    }
+    .demo-2 {
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        max-width: 10rem;
+      }
+    .first_div{
+        flex-direction: column;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+    .first_div_1st{
+        height: 15rem;
+    }
+    .first_div_text_img{
+        margin-right: 2rem;
+        margin-top: 1rem;
+    }
+    .notification_table{
+        width: 100% ;
+    }
+    .first_div_text{
+        margin-top: 4rem;
+        margin-left: 3rem;
+    }
+    .arrow{
+            font-size: 3.5rem;
+            margin-top: 2rem;
+            gap: 15rem;
+            margin-left: -3rem;
+    }
+    .first_div_text_img{
+        margin-left: -2rem;
+        margin-top: 1rem;
+    }
+    
+}
+
